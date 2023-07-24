@@ -1,0 +1,82 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.link {
+  text-align: none;
+  display: inline;
+  padding: 20px 20px;
+  font-weight: 700;
+  font-size: large;
+  cursor: pointer;
+  color: black
+}
+
+
+.Navbtns {
+  height: 100px;
+  background-color: greenyellow;
+
+}
+
+.Bio {
+  height: 600px;
+  background-color: yellow;
+  color:black
+
+}
+.Projects {
+  height: 600px;
+  background-color: orange;
+  color: black 
+
+}
+
+.Contact {
+  height: 600px;
+  background-color: blue;
+  color: black
+}
+
+.top-btn-style {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+
+}
+
+.top-btn-position {
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
+}
+
+
+.top-btn-style:hover {
+  animation: none;
+  background-color: black;
+  color: white;
+}
+
+
+.projectLis {
+  text-align:left;
+}
+.projectLis li { 
+  list-style: none;
+}
+
+.GitHubIcon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%; 
+  background-color: #000; 
+}
+
+
